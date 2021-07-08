@@ -191,11 +191,11 @@ while True:
 #                 print("you are caught up guarav")
                   pywhatkit.sendwhatmsg_instantly('+919461485431', 'Face Recognition successfully done')
                   print('!! Message Sent Successfully !!')
-                  pywhatkit.send_mail('gauravpkt04@gmail.com',
-                                 'Second@123',
-                                 'Face Recognition Testing',
-                                 'This is the face of Gaurav jangid....',
-                                 'gauravjangidamer@gmail.com')
+                  pywhatkit.send_mail('sender_mail',
+                                 'sender_mail password',
+                                 'subject',
+                                 'content of the mail....',
+                                 'reciever_mail')
             except: 
                     print("!! Allow less secure apps in Email settings !! ")
                     break
